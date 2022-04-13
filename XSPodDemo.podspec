@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'XSPodDemo'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of XSPodDemo.'
+  s.summary          = 'pod管理测试demo'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,14 +21,14 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/karl.sun/XSPodDemo'
+  s.homepage         = 'https://github.com/xinsun001/XSPodDemo'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'karl.sun' => 'karl.sun@facilityone.cn' }
-  s.source           = { :git => 'https://github.com/karl.sun/XSPodDemo.git', :tag => s.version.to_s }
+  s.author           = {  'xinsun001' => '1453724801@qq.com' }
+  s.source           = { :git => 'https://github.com/xinsun001/XSPodDemo.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '10.0'
 
   s.source_files = 'XSPodDemo/Classes/**/*'
   
