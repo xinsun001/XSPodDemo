@@ -25,12 +25,13 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = {  'xinsun001' => '1453724801@qq.com' }
-  s.source           = { :git => 'https://github.com/xinsun001/XSPodDemo.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/xinsun001/XSPodDemo.git', :tag => '0.1.0' }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
 
-  s.source_files = 'XSPodDemo/Classes/**/*'
+  s.source_files = 'XSPodDemo/Classes/**/*.{h,m}'
+  # s.source_files = 'XSPodDemo/Classes/**/*'
   
   # s.resource_bundles = {
   #   'XSPodDemo' => ['XSPodDemo/Assets/*.png']
