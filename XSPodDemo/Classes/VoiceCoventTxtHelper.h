@@ -35,9 +35,9 @@ typedef NS_ENUM(NSInteger, SFSpeechRecognizerStatus) {
 
 @interface VoiceCoventTxtHelper : NSObject<SFSpeechRecognitionTaskDelegate,SFSpeechRecognizerDelegate>
 
-@property (strong, nonatomic)SFSpeechRecognitionTask *recognitionTask; //语音识别任务
+@property (strong, nonatomic)SFSpeechRecognitionTask * __nullable recognitionTask; //语音识别任务
 @property (strong, nonatomic)SFSpeechRecognizer *speechRecognizer; //语音识别器
-@property (strong, nonatomic)SFSpeechAudioBufferRecognitionRequest *recognitionRequest; //识别请求
+@property (strong, nonatomic)SFSpeechAudioBufferRecognitionRequest * __nullable recognitionRequest; //识别请求
 @property (strong, nonatomic)AVAudioEngine *audioEngine; //录音引擎
 
 /** 监听设备 */
